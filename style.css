@@ -1,0 +1,278 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    font-family: sans-serif;
+}
+.parallax_box{
+    height: 600px;
+    background-image: url('cover1.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+}
+.parallax_box h1{
+    font-size: 100px;
+    font-weight: bold;
+    font-family: sans-serif;
+    position: absolute;
+    top: 30%;
+    left: 6%;
+    animation: change 6s linear infinite;
+}
+@keyframes change{50%{color: aqua;} 100%{color: aquamarine;}}
+
+.bird{
+    width: 100%;
+    height: 100%;
+    background-image: url('1.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+   
+}
+
+.container{
+    padding: 10px 25px;
+    margin: 40px auto;
+    max-width: 640px;
+}
+.content h2{
+    text-align: center;
+    font-weight: bold;
+    color: #ccc;
+    margin-bottom: 10px;
+}
+.content p{
+    text-align: center;
+    color: #555;
+    margin-top: 10px;
+    line-height: 25px;
+}
+.content{
+    margin: 10px auto;
+}
+.scope{
+    height: 640px;
+    background-image: url('long.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-radius: 50%;
+    position: relative;
+    top: 50%;
+    margin-top: 40%;
+    margin-bottom: 10%;
+   
+    
+}
+.long{
+    height: 640px;
+    background-image: url('cover6.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden
+}
+.cover2{
+    width: 100%;
+    height: 100%;
+    background-image: url('2.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50%;
+    transition: all .8s linear;
+}
+.down-arrow{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 50px;
+    color: #555;
+}
+.svg-container{
+    width: 640px;
+    float: right;
+    display: flex;
+}
+#while{
+    animation: spin 40s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+#second-while{
+    animation: spi 40s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+#sun{
+    animation: cchan 10s linear infinite;
+}
+#cloud{
+    animation: moving 40s linear infinite;
+}
+@keyframes moving{
+    from{
+        transform: translateX(500px);
+    }
+    to{
+        transform: translateX(-500px);
+    }
+}
+#cloud1{
+    animation: moving 40s linear infinite;
+}
+@keyframes moving{
+    from{
+        transform: translateX(500px);
+    }
+    to{
+        transform: translateX(-500px);
+    }
+}
+#cloud2{
+    animation: moving 40s linear infinite;
+}
+@keyframes moving{
+    from{
+        transform: translateX(500px);
+   
+    }
+    to{
+        transform: translateX(-500px);
+       
+    }
+}
+
+#car{
+    animation: car 40s linear infinite;
+    
+}
+#tree{
+    animation: tree 10s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+
+}
+
+@keyframes tree{
+    from{
+        transform: rotate(-4deg);
+    }
+    to{
+        transform:rotate(4deg);
+    }
+}
+.movingball{
+  
+}
+#ball{
+    display: block;
+    animation: movingball 10s linear infinite;
+    
+}
+@keyframes movingball{
+    /* 0%{
+        transform: translate(3px, -10px);
+    } */
+    /* 20%{
+        transform: translate(-1px, -40px);
+    }
+    40%{
+        transform: translate(-1px, -80px);
+    } */
+  
+  
+    20%{
+      transform: translateY(30px) skew(-8deg);
+    }
+  
+    60%{
+        transform: translateY(-8px) translateX(23px);
+       
+    }
+    80%{
+        transform: translate(50px,-25px) rotateX(-20deg);
+       
+    }
+    100%{
+        transform: translate(-1px, -100px);
+    }
+
+}
+
+@keyframes car{
+    from{
+        transform: translateX(-500px);
+    }
+    to{
+        transform: translateX(600px);
+    }
+}
+
+@keyframes spin{
+    from{
+        transform: rotateZ(0deg);
+        transform: translateX(-500px);
+    }
+    to{
+        transform: rotateZ(360deg);
+        transform: translateX(600px);
+    }
+}
+
+@keyframes spi{
+    from{
+        transform: rotateZ(0deg);
+        transform: translateX(-500px);
+       
+    }
+    to{
+        transform: rotateZ(360deg);
+        transform: translateX(600px);
+       
+    }
+}
+
+@keyframes cchan{
+    from{
+        transform: rotate(0deg);
+       
+    }
+    to{
+        transform: rotate(20deg);
+       
+    }
+  
+}
+.body{
+    background-color: rgb(43, 43, 43);
+    padding: 200px 0;
+    height: 1000px;
+    
+}
+#b{
+    height: 1000px;
+    display: block;
+}
+#balls, #balls1{
+    position: absolute;
+    transition: all .5s ease;
+}
+/* .is-moving{
+    transform: translateY(400px);
+} */
+.jump{
+    float: right;
+}
+
+#ball-jump{
+   
+    transition:  all .5s ease;
+    
+}

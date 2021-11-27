@@ -1,0 +1,27 @@
+<svg width="669" height="671" viewBox="0 0 669 671" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="stairs 1">
+<path id="Vector" fill-rule="evenodd" clip-rule="evenodd" d="M579.407 218.681L668.272 177.745L285.98 0L199.436 41.8189L579.407 218.681Z" fill="#515258"/>
+<path id="Vector_2" d="M667.544 177.712L579.594 218.126L581.049 574.485L669 533.914L667.544 177.712Z" fill="#313238"/>
+<path id="Vector_3" fill-rule="evenodd" clip-rule="evenodd" d="M200.162 41.3137L579.544 218.787V576.077L200.163 398.719L200.162 41.3137Z" fill="#17181A"/>
+<path id="Vector_4" fill-rule="evenodd" clip-rule="evenodd" d="M189.862 317.476L391.351 224.658L294.722 179.202L95.5527 272.903L189.862 317.476Z" fill="#515258"/>
+<path id="Vector_5" d="M391.319 224.223L189.982 316.94V411.803L391.319 317.476V224.223Z" fill="#313238"/>
+<path id="Vector_6" fill-rule="evenodd" clip-rule="evenodd" d="M95.6953 272.46L190 316.827V580.326L95.6953 536.075V272.46Z" fill="#17181A"/>
+<path id="Vector_7" fill-rule="evenodd" clip-rule="evenodd" d="M95.3068 179.369L296.796 86.5508L200.167 41.0952L0.998047 134.796L95.3068 179.369Z" fill="#515258"/>
+<path id="Vector_8" d="M296.764 86.1166L95.4277 178.833V272.242L296.764 179.369V86.1166Z" fill="#313238"/>
+<path id="Vector_9" fill-rule="evenodd" clip-rule="evenodd" d="M1.14062 134.354L95.4454 178.72L95.4461 536.011L1.14125 491.759L1.14062 134.354Z" fill="#17181A"/>
+<path id="Vector_10" fill-rule="evenodd" clip-rule="evenodd" d="M284.192 456.771L485.681 363.953L389.052 318.497L189.883 412.198L284.192 456.771Z" fill="#515258"/>
+<path id="Vector_11" fill-rule="evenodd" clip-rule="evenodd" d="M484.522 455.317L485.652 363.519L484.522 455.317Z" fill="#212226"/>
+<path id="Vector_12" fill-rule="evenodd" clip-rule="evenodd" d="M190.023 411.755L284.328 456.122V625.224L190.023 580.972V411.755Z" fill="#17181A"/>
+<path id="Vector_13" fill-rule="evenodd" clip-rule="evenodd" d="M378.932 593.928L580.421 501.11L483.792 455.654L284.623 549.355L378.932 593.928Z" fill="#515258"/>
+<path id="Vector_14" fill-rule="evenodd" clip-rule="evenodd" d="M379.053 593.391V670.235L583.229 573.505L582.57 499.233L379.053 593.391Z" fill="#313238"/>
+<path id="Vector_15" fill-rule="evenodd" clip-rule="evenodd" d="M284.754 455.415V549.909L482.284 455.415L484.635 364.556L284.754 455.415Z" fill="#313238"/>
+<path id="Vector_16" fill-rule="evenodd" clip-rule="evenodd" d="M284.764 548.912L379.068 593.279V670.121L284.764 625.87V548.912Z" fill="#17181A"/>
+<path id="ball-jump" d="M419.685 536.825C399.613 536.825 383.342 520.554 383.342 500.482C383.342 480.409 399.613 464.138 419.685 464.138C439.758 464.138 456.029 480.409 456.029 500.482C456.029 520.554 439.758 536.825 419.685 536.825Z" fill="url(#paint0_radial_2:2)"/>
+</g>
+<defs>
+<radialGradient id="paint0_radial_2:2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(431.634 493.511) rotate(105.422) scale(44.9318)">
+<stop offset="0.484375" stop-color="#FF8E5E"/>
+<stop offset="1" stop-color="#D16233"/>
+</radialGradient>
+</defs>
+</svg>
